@@ -26,7 +26,7 @@ static const Rule rules[] = {
 	 *	WM_CLASS(STRING) = instance, class
 	 *	WM_NAME(STRING) = title
 	 */
-	{0},
+	{ "",	NULL,	NULL,	0,	0,	0 },
 };
 
 /* layout(s) */
