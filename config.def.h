@@ -57,7 +57,7 @@ static const Layout layouts[] = {
 static char dmenumon[2] = "0"; /* component of dmenucmd, manipulated in spawn() */
 static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont, "-nb", col_gray1, "-nf", col_gray3, "-sb", col_cyan, "-sf", col_gray4, NULL };
 static const char *j4cmd[] =    { "j4-dmenu-desktop", NULL };
-static const char *sscmd[] =    { "/bin/sh", "-c", "'scrot -s - | xclip -selection clipboard -t image/png'", NULL };
+static const char *sscmd[] =    { "~/.local/bin/screenshot", NULL };
 static const char *termcmd[]  = { "alacritty", NULL };
 
 #include "selfrestart.c"
